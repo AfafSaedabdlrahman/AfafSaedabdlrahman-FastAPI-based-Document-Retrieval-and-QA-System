@@ -78,5 +78,6 @@ bash
     LangChain for providing the core libraries used in this project.
     Ollama for the language model API.
     pgvector for enabling vector similarity searches in PostgreSQL.
-## **Examples of Queries and Response of model**:
+*** Examples of Queries and Response of model***:
 what is responsibilties of best candidate?
+* The ideal candidate will have a strong background in natural language processing (NLP) and experience working with large language models (LLMs), langchain, and vector databases. They will be responsible for developing, integrating, and deploying cutting-edge NLP solutions that leverage advanced AI technologies to enhance our products and services
