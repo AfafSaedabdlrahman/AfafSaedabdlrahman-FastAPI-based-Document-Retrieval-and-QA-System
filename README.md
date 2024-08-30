@@ -54,61 +54,15 @@ Download and Set Up Ollama:
 
     Download the following Ollama models: lama3, phi, smollm.
     The smollm model is used in this project because its size and RAM requirements are suitable for most laptops.for more info about it :https://ollama.com/library/smollm/blobs/6cafb858555d
-      
-### Installation
-Docker Setup
-
-    Pull the pgvector Docker Image:
-
-    bash
-
-docker pull ankane/pgvector
-
-Run the Docker Container:
-
-bash
-
-docker run --name pgvector-demo -e POSTGRES_PASSWORD=mysecretpassword -p 5432:5432 -d ankane/pgvector
-
-Verify the Docker Container is Running:
-
-bash
-
-    docker ps
-
-PostgreSQL and pgvector Setup
-
-    Access PostgreSQL Using pgAdmin or psql:
-        Connect to the database with host localhost and password mysecretpassword.
-
-    Create a Database and Enable pgvector:
-
-    sql
-
-CREATE DATABASE vector_db;
-\c vector_db;
-CREATE EXTENSION pgvector;
-
-    Note: If you are not using the Docker image provided, you will need to install the pgvector extension .
-    Running the Application
-
-    Start the Docker Container:
-
-    bash
-
-docker start pgvector-demo
-
-Connect to the Database:
-
-    Use pgAdmin4 or psql to connect to localhost:5432 with the database vector_db.
-
-Run the FastAPI Application:
+ ###Run the FastAPI Application:
 
 bash
 
 uvicorn main:app --reload
+###test the endpoints
+
     You can also test the endpoints using the Swagger UI at http://127.0.0.1:8000/docs..
-    Project Structure
+###Project Structure
 
 bash
 
