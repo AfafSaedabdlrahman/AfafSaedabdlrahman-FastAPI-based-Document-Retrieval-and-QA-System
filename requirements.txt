@@ -1,0 +1,12 @@
+langchain-community
+langchain-huggingface
+ollama
+pypdf2
+psycopg2-binary
+langchain
+sentence-transformers
+fastapi
+pydantic
+requests
+uvicorn
+transformers
