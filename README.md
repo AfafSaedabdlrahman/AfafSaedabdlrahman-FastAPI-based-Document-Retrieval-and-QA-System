@@ -52,7 +52,7 @@ Install the required Python packages using pip:
 pip install langchain-community langchain-huggingface ollama pypdf2 psycopg2-binary langchain sentence-transformers fastapi pydantic requests uvicorn transformers
 Download and Set Up Ollama:
 
-    Download the following Ollama models: lama3, phi, smollm.
+    Download the following Ollama models: I used  lama3, phi, smollm. 
     
 ###Run the FastAPI Application:
 
