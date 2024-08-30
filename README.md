@@ -89,3 +89,7 @@ Response: The ideal candidate will have a strong background in natural language 
 
 **COmment on Result**:
 Among the available models, Llama3 delivers the best performance, followed by Phi, with Smollm being the least performant. However, I opted for Smollm due to its smaller size and faster execution, which allows it to run all components of the project concurrently. Llama3 requires more system memory (5.9 GiB) than is available on my system (3.7 GiB). Depending on your machine’s capabilities, you can choose any of the three models after downloading them. Simply specify the model name and run it, ensuring that you have first downloaded Ollama.
+
+In the current implementation, I utilized embeddings from the Hugging face model . However, I anticipate that embeddings from the Llama3 model will provide superior performance. Currently, I employed NLTK for tokenization, but found it inefficient, leading me to adopt a character recursive splitter. In future work, I plan to explore and test alternative tokenization methods to identify the most effective approach.
+
+Additionally, I experimented with various chunk sizes and overlap values. The parameters I used proved to be optimal for my specific case. Moving forward, I will continue to evaluate different configurations to refine the performance further.
