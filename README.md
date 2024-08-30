@@ -78,3 +78,5 @@ bash
     LangChain for providing the core libraries used in this project.
     Ollama for the language model API.
     pgvector for enabling vector similarity searches in PostgreSQL.
+## **Examples of Queries and Response of model**:
+what is responsibilties of best candidate?
