@@ -66,7 +66,7 @@ uvicorn main:app --reload
 
 bash
 
-### Project Structure
+
 ├── api.py               # FastAPI application
 ├── pdf_processing.py     # PDF preprocessing functions
 ├── rag_agent.py      # Agent System
