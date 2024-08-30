@@ -54,26 +54,26 @@ Download and Set Up Ollama:
 
     Download the following Ollama models: lama3, phi, smollm.
     The smollm model is used in this project because its size and RAM requirements are suitable for most laptops.for more info about it :https://ollama.com/library/smollm/blobs/6cafb858555d
-## Run the FastAPI Application:
+###Run the FastAPI Application:
 
 bash
 
 uvicorn main:app --reload
-###test the endpoints
+### test the endpoints
 
     You can also test the endpoints using the Swagger UI at http://127.0.0.1:8000/docs..
-###Project Structure
+### Project Structure
 
 bash
 
-###Project Structure
+### Project Structure
 ├── api.py               # FastAPI application
 ├── pdf_processing.py     # PDF preprocessing functions
 ├── rag_agent.py      # Agent System
 ├── README.md             # Project documentation
 └── ...
 
-###Acknowledgements
+### Acknowledgements
 
     LangChain for providing the core libraries used in this project.
     Ollama for the language model API.
