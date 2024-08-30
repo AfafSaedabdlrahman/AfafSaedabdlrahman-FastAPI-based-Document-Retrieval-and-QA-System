@@ -54,7 +54,7 @@ Download and Set Up Ollama:
 
     Download the following Ollama models: lama3, phi, smollm.
     The smollm model is used in this project because its size and RAM requirements are suitable for most laptops.for more info about it :https://ollama.com/library/smollm/blobs/6cafb858555d
-### Run the FastAPI Application:
+## Run the FastAPI Application:
 
 bash
 
