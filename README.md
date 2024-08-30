@@ -73,7 +73,7 @@ bash
 ├── README.md             # Project documentation
 └── ...
 
-### Acknowledgements
+**Acknowledgements**:
 
     LangChain for providing the core libraries used in this project.
     Ollama for the language model API.
