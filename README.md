@@ -79,10 +79,13 @@ bash
     LangChain for providing the core libraries used in this project.
     Ollama for the language model API.
     pgvector for enabling vector similarity searches in PostgreSQL.
-# Examples of Queries and Response of model:
+
+
+**Examples of Queries and Response of model** 
 Query: What are the responsibilities of the best candidate?
 
 Response: The ideal candidate will have a strong background in natural language processing (NLP) and experience working with large language models (LLMs), LangChain, and vector databases. They will be responsible for developing, integrating, and deploying cutting-edge NLP solutions that leverage advanced AI technologies to enhance our products and services.
+
 
 **COmment on Result**:
 Among the available models, Llama3 delivers the best performance, followed by Phi, with Smollm being the least performant. However, I opted for Smollm due to its smaller size and faster execution, which allows it to run all components of the project concurrently. Llama3 requires more system memory (5.9 GiB) than is available on my system (3.7 GiB). Depending on your machine’s capabilities, you can choose any of the three models after downloading them. Simply specify the model name and run it, ensuring that you have first downloaded Ollama.
